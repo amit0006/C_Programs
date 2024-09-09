@@ -18,7 +18,7 @@ void create()
                 printf("Enter %d day\n", i+1);
                 scanf("%s", (c+i)->p);
                 printf("Enter the date for this\n");
-                scanf("%d", &c[i].date);
+                scanf("%d", &(c+i)->date);
                 printf("Enter the description for that\n");
                 scanf("%s", (c+i)->d);
         }
