@@ -10,6 +10,11 @@ struct calendar *c;
 void create()
 {
 	c=(struct calendar *)malloc(7*sizeof(struct calendar));
+	if(c==NULL)
+        {
+                printf("Memory is not allocated\n");
+                exit(0);
+        }
         printf("Enter the day, date and description for that day\n");
         for(int i=0;i<7;i++)
         {
@@ -32,6 +37,7 @@ void display()
                 printf("%d-", (c+i)->date);
                 printf("%s\n", (c+i)->d);
         }
+	free(c);
 }
 void main()
 {
