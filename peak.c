@@ -26,7 +26,7 @@ void main()
 		}
 		else
 		{
-			h=mid-1;
+			h=mid;
 		}
 	}
 	printf("The index of the peak element is %d\n", l);
