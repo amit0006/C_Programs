@@ -1,3 +1,4 @@
+//To find the starting and ending index of a number in a sorted array
 #include<stdio.h>
 void main()
 {
