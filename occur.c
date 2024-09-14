@@ -1,3 +1,4 @@
+//To find the number of occurance of a number in a sorted array
 #include<stdio.h>
 void main()
 {
