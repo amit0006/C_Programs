@@ -42,7 +42,10 @@ void palindrone()
 		if(num==stack[rev])
 			k=1;
 		else
+		{
+			k=0;
 			break;
+		}
 		rev=rev+1;
 	}
 	if(k==1)
