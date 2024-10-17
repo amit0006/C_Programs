@@ -1,3 +1,4 @@
+//DO the following operations on stack i.e. 1. push 2. POP 3. display 4. Check if it is palindrome or not 5. check the overflow and underflow situation
 #include<stdio.h>
 #include<stdlib.h>
 #define MAX 10
