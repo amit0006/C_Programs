@@ -1,3 +1,4 @@
+//Find the sum of the polynomial containing one variable
 #include<stdio.h>
 struct poly{
 	int cf;
