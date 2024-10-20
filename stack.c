@@ -1,4 +1,12 @@
-//DO the following operations on stack i.e. 1. push 2. POP 3. display 4. Check if it is palindrome or not 5. check the overflow and underflow situation
+/*Develop a menu driven Program in C for the following operations on STACK of Integers 
+(Array Implementation of Stack with maximum size MAX) 
+a. Push an Element on to Stack
+b. Pop an Element from Stack
+c. Demonstrate how Stack can be used to check Palindrome
+d. Demonstrate Overflow and Underflow situations on Stack
+e. Display the status of Stack
+f. Exit
+Support the program with appropriate functions for each of the above operations*/
 #include<stdio.h>
 #include<stdlib.h>
 #define MAX 10
