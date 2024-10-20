@@ -1,3 +1,5 @@
+/*Develop a Program in C for the following Stack Applications 
+a. Solving Tower of Hanoi problem with n disks*/
 #include <stdio.h>
 void towers(int, char, char, char); 
 int main()
